@@ -1,0 +1,8 @@
+body {
+  --primary: ;
+  --secondary: #afafaf;
+}
+
+body.dark {
+  --secondary: #444;
+}

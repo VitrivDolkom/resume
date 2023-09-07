@@ -1,0 +1,7 @@
+@import "./vars.css";
+
+.box {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: var(--secondary);
+}
