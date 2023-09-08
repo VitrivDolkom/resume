@@ -1,7 +1,13 @@
 @import "./vars.css";
 
+body {
+  color: #feffff;
+  /* background-color: rgb(226, 125, 96) 69%, 63%); */
+}
+
 .box {
   width: 1200px;
   margin: 0 auto;
   background-color: var(--secondary);
+  color: rgba(107, 33, 168);
 }
