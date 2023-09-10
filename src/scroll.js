@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll(".forScroll")
+const elements = document.querySelectorAll(".myhidden")
 
 const intersectionOptions = {
 	root: null,
@@ -9,9 +9,11 @@ const intersectionOptions = {
 const scrollObserverCallback = (entries) => {
 	entries.forEach((entry) => {
 		if (entry.isIntersecting) {
-			entry.target.classList.add("active")
+			entry.target.classList.add("show")
+			entry.target.classList.remove("myhidden")
 		} else {
-			entry.target.classList.remove("active")
+			entry.target.classList.add("myhidden")
+			entry.target.classList.remove("show")
 		}
 	})
 }

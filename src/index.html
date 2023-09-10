@@ -7,126 +7,133 @@
 		<link href="../dist/output.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="container mt-10 px-5 font-sans flex flex-col">
+		<div class="min-h-screen w-full flex align-center justify-center">
 			<h1 class="text-4xl font-bold text-center">📋 Резюме</h1>
+		</div>
 
-			<div class="flex justify-around mt-20">
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<div class="ocean">
-						<div class="wave"></div>
-						<div class="wave"></div>
-						<div class="wave"></div>
+		<div class="container mt-10 px-5 font-sans flex flex-col">
+			<section class="min-h-screen mt-20">
+				<div class="w-full flex justify-around">
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<div class="ocean">
+							<div class="wave"></div>
+							<div class="wave"></div>
+							<div class="wave"></div>
+						</div>
+						<h2 class="text-2xl font-semibold mt-2">Информация о себе:</h2>
+						<ul class="mt-6 list-disc">
+							<li>Город проживания Томск</li>
+							<li>Учусь на 2 курсе ТГУ, "Высшая IT школа"</li>
+							<li>Основная ОС линукс (терминал one love)</li>
+							<li>Люблю спорт</li>
+						</ul>
+						<a href="https://github.com/VitrivDolkom">Мой гитхаб</a>
 					</div>
-					<h2 class="text-2xl font-semibold mt-2">Информация о себе:</h2>
-					<ul class="mt-6 list-disc">
-						<li>Город проживания Томск</li>
-						<li>Учусь на 2 курсе ТГУ, "Высшая IT школа"</li>
-						<li>Основная ОС линукс (терминал one love)</li>
-						<li>Люблю спорт</li>
-					</ul>
-					<a href="https://github.com/VitrivDolkom">Мой гитхаб</a>
-				</div>
 
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<h2 class="text-2xl font-semibold mt-2">Опыт работы:</h2>
-					<ul class="mt-6 list-disc">
-						<li>Верстка лендингов на фрилансе. В период с сентября 2021 по июнь 2022</li>
-					</ul>
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<h2 class="text-2xl font-semibold mt-2">Опыт работы:</h2>
+						<ul class="mt-6 list-disc">
+							<li>Верстка лендингов на фрилансе. В период с сентября 2021 по июнь 2022</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="flex justify-around mt-20">
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<h2>Основной стэк на фронтенд:</h2>
-					<ul>
-						<li>html, css, js</li>
-						<li>React</li>
-						<li>Typescript</li>
-						<li>State managers: zustand, redux, jotai</li>
-						<li>Работа с api: axios, react-query, rtk-query</li>
-						<li>Множество библиотек для react: react-hook-form, formik ...</li>
-						<li>База angular, rxjs, ngrx ...</li>
-					</ul>
+			<section class="min-h-screen mt-20">
+				<div class="w-full flex justify-around">
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<h2>Основной стэк на фронтенд:</h2>
+						<ul>
+							<li>html, css, js</li>
+							<li>React</li>
+							<li>Typescript</li>
+							<li>State managers: zustand, redux, jotai</li>
+							<li>Работа с api: axios, react-query, rtk-query</li>
+							<li>Множество библиотек для react: react-hook-form, formik ...</li>
+							<li>База angular, rxjs, ngrx ...</li>
+						</ul>
+					</div>
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<h2>Что конкретно приходилось делать:</h2>
+						<ul>
+							<li>
+								В первое время много занимался версткой простых лендингов, в том числе адаптивной под
+								разные размеры, немного изучал семантическую верстку. (<a
+									href="https://github.com/VitrivDolkom/clean_simple_layout"
+								></a
+								>, <a href="https://github.com/VitrivDolkom/travelTemp">тык</a>)
+							</li>
+							<li>
+								Работал с api как на ванильном js так и с typescript на react. Сначала использовал
+								просто бесплатные апишки, потом уже практиковал на хакатонах, интенсивах и тд.
+							</li>
+							<li>
+								В последнее время перешел полностью на typescript, тренировал его при написании
+								упрощенных аналогов библиотек для react по типу formik. (<a
+									href="https://github.com/VitrivDolkom/auth-project"
+									>тык</a
+								>)
+							</li>
+							<li>
+								Настраивал под себя правила eslint, prettier, husky , писал простенькие правила eslint.
+								(<a href="https://github.com/VitrivDolkom/shift-summer-2023-task">тык</a>)
+							</li>
+							<li>
+								Также использовал стэйт-мэнеджеры: zustand, redux. Использовал как и старый redux так и
+								redux-toolkit, thunk. (<a href="https://github.com/VitrivDolkom/shift-summer-2023-task"
+									>тык</a
+								>, <a href="https://github.com/VitrivDolkom/shift-winter-2023-sample">тык</a>)
+							</li>
+							<li>
+								Для запросов: react-query, rtk-query. Также для работы с api в основном использовал
+								axios. (<a href="https://github.com/VitrivDolkom/shift-summer-2023-task">тык</a>)
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<h2>Что конкретно приходилось делать:</h2>
-					<ul>
-						<li>
-							В первое время много занимался версткой простых лендингов, в том числе адаптивной под разные
-							размеры, немного изучал семантическую верстку. (<a
-								href="https://github.com/VitrivDolkom/clean_simple_layout"
-							></a
-							>, <a href="https://github.com/VitrivDolkom/travelTemp">тык</a>)
-						</li>
-						<li>
-							Работал с api как на ванильном js так и с typescript на react. Сначала использовал просто
-							бесплатные апишки, потом уже практиковал на хакатонах, интенсивах и тд.
-						</li>
-						<li>
-							В последнее время перешел полностью на typescript, тренировал его при написании упрощенных
-							аналогов библиотек для react по типу formik. (<a
-								href="https://github.com/VitrivDolkom/auth-project"
-								>тык</a
-							>)
-						</li>
-						<li>
-							Настраивал под себя правила eslint, prettier, husky , писал простенькие правила eslint. (<a
-								href="https://github.com/VitrivDolkom/shift-summer-2023-task"
-								>тык</a
-							>)
-						</li>
-						<li>
-							Также использовал стэйт-мэнеджеры: zustand, redux. Использовал как и старый redux так и
-							redux-toolkit, thunk. (<a href="https://github.com/VitrivDolkom/shift-summer-2023-task"
-								>тык</a
-							>, <a href="https://github.com/VitrivDolkom/shift-winter-2023-sample">тык</a>)
-						</li>
-						<li>
-							Для запросов: react-query, rtk-query. Также для работы с api в основном использовал axios.
-							(<a href="https://github.com/VitrivDolkom/shift-summer-2023-task">тык</a>)
-						</li>
-					</ul>
-				</div>
-			</div>
+			</section>
 
-			<div class="flex justify-around mt-20">
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<h2>Какие технологии использовал:</h2>
-					<ul>
-						<li>git для командной работы (в универе ее достаточно много), в основном github</li>
-						<li>
-							eslint, prettier, husky для поддержания качества кода настраивал под себя, писал парочку
-							правил для eslint
-						</li>
-						<li>
-							через терминал работал с docker, nginx, и впринципе в повседневной жизни linux пользователя
-						</li>
-						<li>UML схемы на базовом уровне проходили в университете</li>
-					</ul>
-				</div>
+			<section class="min-h-screen mt-20">
+				<div class="w-full flex justify-around">
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<h2>Какие технологии использовал:</h2>
+						<ul>
+							<li>git для командной работы (в универе ее достаточно много), в основном github</li>
+							<li>
+								eslint, prettier, husky для поддержания качества кода настраивал под себя, писал парочку
+								правил для eslint
+							</li>
+							<li>
+								через терминал работал с docker, nginx, и впринципе в повседневной жизни linux
+								пользователя
+							</li>
+							<li>UML схемы на базовом уровне проходили в университете</li>
+						</ul>
+					</div>
 
-				<div class="block w-1/3 px-14 py-10 rounded-lg">
-					<h2>Участие в мероприятиях:</h2>
-					<ul>
-						<li>
-							VK CUP 2022 - 2023. <br />
-							Итог: топ 64 <br />
-							Стэк: react, js, docker
-						</li>
-						<li>
-							Хакатон от ЛЦТ 2022. <br />
-							Итог: участие <br />
-							Стэк: react, redux
-						</li>
-						<li>
-							ШИФТ интенсивы от ЦФТ. <br />
-							Стэк: react, redux, typescript, react-query, thunk, formik, react-hook-form …
-						</li>
-					</ul>
+					<div class="myhidden block w-1/3 px-14 py-10 rounded-lg">
+						<h2>Участие в мероприятиях:</h2>
+						<ul>
+							<li>
+								VK CUP 2022 - 2023. <br />
+								Итог: топ 64 <br />
+								Стэк: react, js, docker
+							</li>
+							<li>
+								Хакатон от ЛЦТ 2022. <br />
+								Итог: участие <br />
+								Стэк: react, redux
+							</li>
+							<li>
+								ШИФТ интенсивы от ЦФТ. <br />
+								Стэк: react, redux, typescript, react-query, thunk, formik, react-hook-form …
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="mt-20">
+			<section class="min-h-screen mt-20">
 				<div class="block w-1/2 mx-auto my-0 px-14 py-10 rounded-3xl">
 					<h2>Другой опыт разработки:</h2>
 					<ul>
@@ -149,23 +156,23 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</section>
 
-			<footer class="flex justify-center py-4 mt-20 border-y-2 border-black border-solid">
+			<footer class="footer flex justify-center py-4 mt-20 border-y-2">
 				<ul class="flex w-1/6 justify-between px-5">
 					<li class="">
 						<a href="https://t.me/Vitriv_Dolkom"
-							><img src="./icons/telegram.svg" alt="телеграм" class="max-w-full"
+							><img src="../dist/icons/telegram.svg" alt="телеграм" class="max-w-full"
 						/></a>
 					</li>
 					<li>
 						<a href="https://vk.com/vitriv_dolkom"
-							><img src="./icons/vk.svg" alt="вк" class="max-w-full"
+							><img src="../dist/icons/vk.svg" alt="вк" class="max-w-full"
 						/></a>
 					</li>
 					<li>
 						<a href="https://github.com/VitrivDolkom"
-							><img src="./icons/github.svg" alt="гитхаб" class="max-w-full"
+							><img src="../dist/icons/github.svg" alt="гитхаб" class="max-w-full"
 						/></a>
 					</li>
 				</ul>
