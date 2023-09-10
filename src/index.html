@@ -6,14 +6,19 @@
 		<title>Resume</title>
 		<link href="../dist/output.css" rel="stylesheet" />
 	</head>
-	<body class="bg-ebony-clay-950">
+	<body>
 		<div class="container mt-10 px-5 font-sans flex flex-col">
-			<h1 class="text-4xl font-bold text-center text-ebony-clay-200">📋 Резюме</h1>
+			<h1 class="text-4xl font-bold text-center">📋 Резюме</h1>
 
 			<div class="flex justify-around mt-20">
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
+					<div class="ocean">
+						<div class="wave"></div>
+						<div class="wave"></div>
+						<div class="wave"></div>
+					</div>
 					<h2 class="text-2xl font-semibold mt-2">Информация о себе:</h2>
-					<ul class="mt-6 list-disc text-indigo-100">
+					<ul class="mt-6 list-disc">
 						<li>Город проживания Томск</li>
 						<li>Учусь на 2 курсе ТГУ, "Высшая IT школа"</li>
 						<li>Основная ОС линукс (терминал one love)</li>
@@ -22,16 +27,16 @@
 					<a href="https://github.com/VitrivDolkom">Мой гитхаб</a>
 				</div>
 
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
 					<h2 class="text-2xl font-semibold mt-2">Опыт работы:</h2>
-					<ul class="mt-6 list-disc text-indigo-100">
+					<ul class="mt-6 list-disc">
 						<li>Верстка лендингов на фрилансе. В период с сентября 2021 по июнь 2022</li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="flex justify-around mt-20">
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
 					<h2>Основной стэк на фронтенд:</h2>
 					<ul>
 						<li>html, css, js</li>
@@ -43,7 +48,7 @@
 						<li>База angular, rxjs, ngrx ...</li>
 					</ul>
 				</div>
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
 					<h2>Что конкретно приходилось делать:</h2>
 					<ul>
 						<li>
@@ -85,7 +90,7 @@
 			</div>
 
 			<div class="flex justify-around mt-20">
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
 					<h2>Какие технологии использовал:</h2>
 					<ul>
 						<li>git для командной работы (в универе ее достаточно много), в основном github</li>
@@ -100,7 +105,7 @@
 					</ul>
 				</div>
 
-				<div class="w-1/3 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/3 px-14 py-10 rounded-lg">
 					<h2>Участие в мероприятиях:</h2>
 					<ul>
 						<li>
@@ -122,7 +127,7 @@
 			</div>
 
 			<div class="mt-20">
-				<div class="w-1/2 mx-auto my-0 px-14 py-10 text-ebony-clay-100 bg-ebony-clay-800 rounded-lg">
+				<div class="block w-1/2 mx-auto my-0 px-14 py-10 rounded-3xl">
 					<h2>Другой опыт разработки:</h2>
 					<ul>
 						<li>
@@ -166,5 +171,7 @@
 				</ul>
 			</footer>
 		</div>
+
+		<script src="./scroll.js"></script>
 	</body>
 </html>

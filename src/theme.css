@@ -1,0 +1,20 @@
+body {
+  --background: white;
+  --primary: #d87093da;
+  --on-primary: #d8709380;
+  --secondary: #111;
+
+  background-color: var(--background);
+}
+
+body.dark {
+  --background: #333;
+  --secondary: #feffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --background: #333;
+    --secondary: #feffff;
+  }
+}
